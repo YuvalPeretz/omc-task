@@ -1,0 +1,21 @@
+.side {
+  background-color: #7979de;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.side:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: box-shadow 0.2s;
+}
+
+.top-bottom-sides {
+  width: 300px;
+}
+
+.right-left-sides {
+  height: 300px;
+  width: 25px;
+}
